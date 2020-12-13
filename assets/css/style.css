@@ -1,7 +1,24 @@
-#wrapper {
-  overflow-x: hidden;
-  width: 100%;
-  position: relative;
-  height: 100%;
-  min-height: 100vh;
-}
+#wrapper 
+    {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+    height: 100%;
+    min-height: 100vh;
+    }
+
+html 
+    {
+    position: relative;
+    min-height: 100vh;
+    }
+
+body 
+    {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100%;
+    min-height: 100vh;
+    }
