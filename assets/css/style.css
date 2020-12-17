@@ -1,24 +1,70 @@
 #wrapper 
     {
-    overflow-x: hidden;
-    width: 100%;
-    position: relative;
-    height: 100%;
-    min-height: 100vh;
+        overflow-x: hidden;
+        width: 100%;
+        position: relative;
+        height: 100%;
+        min-height: 100vh;
     }
 
 html 
     {
-    position: relative;
-    min-height: 100vh;
+        position: relative;
+        min-height: 100vh;
     }
 
 body 
     {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    height: 100%;
-    min-height: 100vh;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 100%;
+        min-height: 100vh;
+    }
+
+article
+    {
+        padding: 0 !important;
+        margin: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+img
+    {
+        object-fit: contain !important;
+    }
+
+.carousel-item
+    {
+        overflow: hidden;
+        background-size: cover;
+        min-height: 70vh;
+        
+    }
+
+.carousel-header-text 
+    {
+        color: #ffffffa8;
+        margin: 7vh;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 10px;
+        text-shadow: -1px 7px 20px #2b2b2bbf;
+    }
+
+#index-mission-logo
+    {
+        height: 20vh;
+    }
+
+.carousel-p
+    {
+        background: #ffffff66;
+        width: fit-content;
+        margin: 0 auto;
+        padding: 1vh 3vw;
+        color: #010101;
+        text-transform: uppercase;
     }
