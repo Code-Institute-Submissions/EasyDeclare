@@ -23,14 +23,6 @@ body
         min-height: 100vh;
     }
 
-article
-    {
-        padding: 0 !important;
-        margin: 0 !important;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-    }
-
 img
     {
         object-fit: contain !important;
@@ -67,4 +59,11 @@ img
         padding: 1vh 3vw;
         color: #010101;
         text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+
+.portrait
+    {
+        height: 30vh;
     }
