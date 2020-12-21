@@ -1,81 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.2/sandstone/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<title>Easy Declare sign-up and FAQ</title>
-</head>
-<body>
-<div id="wrapper">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.2/sandstone/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Easy Declare sign-up and FAQ</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
-            <img width="50px" height="5%" src="assets/images/templogo.png">
+        <img id="logo" src="./assets/images/templogo.png" alt="Easy Declare logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
         </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="signup.html">Signup<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="faq.html">FAQ</a>
-                    </li>
-                </ul>
-            </div>
-    </nav>
-    <article class="container">
-        <section class="con-12 text-center">
-            <h1>Register to Easy Decleare</h1>
-            <p>sign-up for early-acsess and news about Easy declare</p>
-            <form><input type="email" placeholder="E-mail"></form>
-            <button class="btn btn-info my-4 btn-block bg-secondary col-md-3 text center">Submit</button>
-        </section>
-       
-        <section class="meeting con-12 text-center">
-            <h2>Book a call with us</h2>
-            <form><input type="textdatetime-local"><input type="submit" value="Submit"></form>
-            <form><input type="tel"><input type="submit" value="Submit"></form>
-        </section>
-    </article>    
-</div>
-    <footer class="page-footer font-small p-3 mb-2 bg-light">
-        <div class="row">
-            <div class="col-md-3 footer">Hugo Zedendahl © 2020</div>
-            <div class="col-md-9 footer text-right">
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="index.html" class="text-dark">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html" class="text-dark">About</a>
-                    </li>
-                    <li>
-                        <a href="signup.html" class="text-dark">Signup<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li>
-                        <a href="faq.html" class="text-dark"><u></u>FAQ</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="signup.html">Signup<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+          </ul>
         </div>
+      </nav>
+      <article class="container text-center">
+        <h1 class="text-center my-3">Register</h1>
+        <span class="text-center">sign-up for early-access and news about Easy declare</span>
+        <form class="mt-3"><input class="form-control" type="email" placeholder="E-mail"><button class="btn btn-info my-3 btn-block bg-secondary">Submit</button></form>
+        <h2>Book a call with us</h2>
+        <span> we will message you before 10:00 AM of the specifieddate to confirm a time for a call during the afternoon of the same day</span>
+        <form class="mt-3">
+          <input type="date" class="form-control">
+          <input class="form-control" type="tel" placeholder="phone number"><button class="btn btn-info my-3 btn-block bg-secondary">Submit</button>
+        </form>
+      </article>
+    </div>
+    <footer class="page-footer font-small p-3 mb-2 bg-light">
+      <div class="row">
+        <div class="col-md-3 footer">Hugo Zedendahl © 2020</div>
+        <div class="col-md-9 footer text-right">
+          <ul class="list-unstyled">
+            <li>
+              <a href="./index.html" class="text-dark">Home</a>
+            </li>
+            <li>
+              <a href="./about.html" class="text-dark">About</a>
+            </li>
+            <li>
+              <a href="./signup.html" class="text-dark">Signup<span class="sr-only">(current)</span></a>
+            </li>
+            <li>
+              <a href="./faq.html" class="text-dark"><u></u>FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
 </html>

@@ -1,3 +1,4 @@
+/* these first rules are to make sure there is no overflow on the website*/
 #wrapper 
     {
         overflow-x: hidden;
@@ -22,20 +23,14 @@ body
         height: 100%;
         min-height: 100vh;
     }
-
-img
-    {
-        object-fit: contain !important;
-    }
-
+/* this controls the size of the carousel and how overflow is dealt*/
 .carousel-item
     {
         overflow: hidden;
         background-size: cover;
-        min-height: 70vh;
-        
+        min-height: 70vh;  
     }
-
+/* this controls the styling of the main header text of the carousel */
 .carousel-header-text 
     {
         color: #ffffffa8;
@@ -45,12 +40,12 @@ img
         letter-spacing: 10px;
         text-shadow: -1px 7px 20px #2b2b2bbf;
     }
-
+/*  this controls the logo on the lower part of the index page */
 #index-mission-logo
     {
         height: 20vh;
     }
-
+/*  this styles the smaller text on the carousel */
 .carousel-p
     {
         background: #ffffff66;
@@ -62,8 +57,25 @@ img
         font-weight: bold;
         letter-spacing: 3px;
     }
-
+/* adjusts the size of the contact information portraits */
 .portrait
     {
         height: 30vh;
     }
+/*  these 2 following rules adjusts the size  of elements on the signup page*/
+form .btn 
+    {    
+    max-width: 345px;
+    margin: 0 auto;
+    }
+
+input.form-control 
+    {
+        max-width: 760px;
+        margin: 0 auto;
+    }
+/*  fixes the size of the logo on the navbar */
+#logo
+{
+    max-width: 50px!important; 
+}    
