@@ -13,15 +13,14 @@ This is a mockup of a website for a future project.
     -   #### Returning Visitor Goals
 
         1. As a Returning Visitor, i Want to be able to contact the organisation or individuals running the project
-        2. As a Returning Visitor, 
 
 -   ### Design
     -   #### Colour Scheme
-        -   Bootstrap secondary and plain white
+        -   Bootstrap secondary and plain white, inspired by brutalist architecture, digital brutalism.
     -   #### Typography
         -   used roboto for simple, familiar and contemporary feel. 
     -   #### Imagery
-        -   the imagery is supposed to evoke the feelings of running a small swedish non-profit 
+        -   the imagery is supposed to evoke the feelings of running a small swedish non-profit, and partaking on hobby/sport activities. 
 
 
 
@@ -29,9 +28,12 @@ This is a mockup of a website for a future project.
 
 -   Responsive on all device sizes
 
--   Dynamic landing page
+-   Dynamic landing page feel
+
+-   Accesible to hard of hearing users by adding descriptive alt text for all images
 
 ## Technologies Used
+
 
 ### Languages Used
 
@@ -55,15 +57,16 @@ This is a mockup of a website for a future project.
     - Gitpod was used to write the code and test the site, as well as the main compiler used.
 1. [unsplash:](https://unsplash.com/)
     - unsplash was used to find copyright free images.
-
+1. [fullstack WebDev Template by code institute:](https://codeinstitute.net/)
+    - the template was used to set up the project.
 
 ## validation
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
-
+-   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](./validationscreens)[folder in this project]
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]((./validationscreens))
+- [FREEFORMATTER HTML formatter] (https://www.freeformatter.com/html-formatter.html?fbclid=IwAR2kL16WWKhd0-4zHYSWcQ99AvSshkvifpP0SSNVnr-K6z91hu6mgOMkWWM)
 
 
 ## Credits
@@ -76,16 +79,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Content
 
--   All content was written by the developer.
+-   All content was written by the Hugo Zedendahl.
 
 ### Media
 
 -   logo Images were created by Alvin Zedendahl on comission by Hugo Zedendahl
+-   Carousel images where acqiured from unsplash
 
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
 
--   My brother for QA testing
+-   My brother and his girlfriend for QA testing
 
 -   Tutor support at Code Institute for their support.
