@@ -11,6 +11,7 @@
     <title>Easy Declare, simple tax declaration</title>
   </head>
   <body>
+    <!-- the wrapper is made to keep the footer at the bottom of the page and prevent overflows on the nav bar -->
     <div id="wrapper">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
@@ -22,20 +23,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="./about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="signup.html">Signup</a>
+              <a class="nav-link" href="./signup.html">Signup</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="faq.html">FAQ</a>
+              <a class="nav-link" href="./faq.html">FAQ</a>
             </li>
           </ul>
         </div>
       </nav>
+      <!-- this section was based on bootsraps built in carousel function, the main difference being that the images are backround images to scale them  with css better for multiple devices -->
       <section class="callout">
         <div id="carousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -67,7 +69,9 @@
           </a>
         </div>
       </section>
+      <!-- end carousel -->
       <section class="mission">
+        <!-- this design was inspired by the love running exsersize in the design. but using bootstrap css to align the elements -->          
         <div class="container">
           <div class="row no-gutters mt-5">
             <div class="col-md-5">
@@ -76,8 +80,9 @@
               <h2>Reliable</h2>
               <p>The software is designed with safety and reliability in mind, not storing any data locally and working with banks to keep your data secure and accurate</p>
             </div>
-            <div  class="col-md-2 text-center py-5"><img id="index-mission-logo" src="./assets/images/templogo.png" alt=""></div>
-            <div class="col-md-5 text-right">
+            <div  class="col-md-2 py-5 text-center"><img id="index-mission-logo" src="./assets/images/templogo.png" alt="Logo"></div>
+            <!-- the following div has custom text css to adjust the right text on small screens -->
+            <div class="col-md-5 text-right alignmentadjust">
               <h2>What is Easy declare?</h2>
               <p class="pb-5">Easy Declare is a free open-source tax declaration software designed with our mission in mind</p>
               <h2>Simple</h2>
@@ -87,6 +92,7 @@
         </div>
       </section>
     </div>
+    <!-- this is the end of the wrapper, the footer below was designed with simplicity in mind -->
     <footer class="page-footer font-small p-3 bg-light">
       <div class="row">
         <div class="col-md-3 footer">Hugo Zedendahl © 2020</div>

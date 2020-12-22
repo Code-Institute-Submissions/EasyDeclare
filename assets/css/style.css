@@ -74,8 +74,16 @@ input.form-control
         max-width: 760px;
         margin: 0 auto;
     }
-/*  fixes the size of the logo on the navbar */
+/*  this following rule fixes the size of the logo on the navbar */
 #logo
-{
+    {
     max-width: 50px!important; 
-}    
+    }    
+/* this following rule adjusts the text alignment on the paragraphs and headings right to the logo on the index page for mobile screens */
+@media (max-width:767px)
+    {
+       .alignmentadjust 
+            {
+                text-align: justify!important;
+            }
+    }
