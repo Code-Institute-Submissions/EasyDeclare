@@ -166,7 +166,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Media
 
 -   logo Images were created by Alvin Zedendahl on comission by Hugo Zedendahl
--   Carousel images where acqiured from unsplash.
+-   all other images where acqiured from unsplash.
 
 ### Acknowledgements
 
